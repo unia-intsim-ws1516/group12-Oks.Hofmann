@@ -57,7 +57,7 @@
 % without further effort on your part as the last section in
 % the body of your article BEFORE References or any Appendices.
 
-\numberofauthors{8} %  in this sample file, there are a *total*
+\numberofauthors{2} %  in this sample file, there are a *total*
 % of EIGHT authors. SIX appear on the 'first-page' (for formatting
 % reasons) and the remaining two appear in the \additionalauthors section.
 %
@@ -76,20 +76,20 @@
 \alignauthor
 Markus Hofmann\\
        \affaddr{University of Augsburg}\\
-       \email{markus.hofmann@\\
-       student.uni-augsburg.de}
+       \email{markus.hofmann@student.uni-augsburg.de}
 % 2nd. author
 \alignauthor
 Alexander Oks\\
        \affaddr{University of Augsburg}\\
-       \email{alexander.oks@\\
-       student.uni-augsburg.de}
+       \email{alexander.oks@student.uni-\\augsburg.de}
 }
 
 \maketitle
 
 \begin{abstract}
-//TODO
+With our refugee-simulator we want to illustrate the flows of refugees in Europe according to decisions the user can take in some dialogues. In these he will get asked several questions about the current policy in Germany and policy towards Europe. It will all be displayed on an interactive map in 2D.
+
+%which he get asked 
 \end{abstract}
 
 \section{Motivation}
@@ -106,31 +106,38 @@ The user assumes the role of a head of state. He/she has to make decisions conce
 \section{Project requirements}
 In our simulation there should be four aspects that have to be involved.
 \subsection{Science}
-\begin{description}
+\subsubsection*{\textbf{General refugee policy}}
+The user in his role as described in section \ref{concept idea} have to take many several decisions about the general refugee policy. For simplification only the decision-making for Germany and ruling from the European Parliament will take place. Therefore the president or similar will be confronted with questions like which people are allowed to come to their country. Thereby it has to be considered if they are coming from a country in which war or civil war is already being waged or are they coming from a so called ``save place'', where there is more or less poverty but no acts of war (see \ref{complexity}). Of course we can not foretell how many refugees will arrive Europe on the long term. Accordingly we will make use of current mean values of refugee flows. 
 
-\item[\textbf{General refugee policy}]
-The user in his role as described in section \ref{concept idea} have to take many several decisions about the general refugee policy. For simplification only the decision-making for Germany and ruling from the European Parliament will take place. Therefore the president or similar will be confronted with questions like which people are allowed to come to their country. Thereby it has to be considered if they are coming from a country in which war or civil war is already being waged or they are coming from a so called ``save place'', where there is more or less poverty but no acts of war. 
+%In addition the user have to 
 
-\item[\textbf{Financial policy}] //TODO
+\subsubsection*{\textbf{Financial policy}}
+For some calculations the financial policy of a country or a state is very important. Germany for example have to spend up to ten billion euro for refugees, if they stay one year \cite{finanzen}. 
+
+//TODO
 
 
-\item[\textbf{Internal \& foreign policy}] //TODO
+\subsubsection*{\textbf{Internal and foreign policy}} //TODO
 
-\end{description}
+
+
 \subsection{Gamification}
 \label{gamification}
 In order to keep the user interested we define some main goals. One of the goals is to keep your citizens happy. The user also has to manage the finances of his/her country and manage the number of refugees. To accomplish those goals the user has to answer dialogs which occur on a regularly basis but also at some randomly generated special events. 
 \subsection{Complexity}
 \label{complexity}
-One of the most important parts of this project is simulating how refugee flows emerge,where they come from how and how they behave. In order to simulate those points we want to classify the countries in the world by the attributes happiness,poverty, starvation and state of war. Based on those attributes Refugee flows emerge and start moving around the map
+One of the most important parts of this project is simulating how refugee flows emerge, where they come from how they behave. In order to simulate those points we want to classify the countries in the world by the attributes happiness, poverty, starvation and state of war. Based on those attributes Refugee flows emerge and start moving around the map.
 \subsection{Aesthetics}
 The aesthetical experience is based on a 2D-world map which shows countries and their basic attributes (\ref{complexity}). Furthermore we want to display refugee flows on the world map. They are represented visually  either  by dots, arrows or 2D sprites which move from one country to another on the world map. The user is interacting through dialogs which pop up as described in \ref{gamification}. A question and a set of answers are displayed inside of the up-popping windows.
 
 
 \section{Conzept user-experience}
+//TODO
 
 \section{Timeline}
 We want to collect information about the topic till mid of November and come up with a logic model that represents the collected information as good as possible till end of November. In that time we also want to familiarize ourselves with Unity3D. Until mid of  December we want to implement our model and build a prototype without focusing on the graphical aspect of the simulation.  Until beginning of January we want to include graphical components and make last adjustments to the simulation. In the last weeks left we want to focus on working on our project report and prepare our presentation.
 
-
+\bibliographystyle{abbrv}
+\bibliography{bibo} 
+%\balancecolumns
 \end{document}
