@@ -1,0 +1,94 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2015.10.24)  24 OCT 2015 20:26
+entering extended mode
+**"H:/UNI Augsburg/2. Semester/Interactive Simulations/group12-oks-hofmann/docu
+mentation/proposal/bibo.bib"
+
+("H:/UNI Augsburg/2. Semester/Interactive Simulations/group12-oks-hofmann/docum
+entation/proposal/bibo.bib"
+Overfull \hbox (226.99634pt too wide) in paragraph at lines 1--11
+\tenrm meine Zeitung, ti-tle = Asyl-be-wer-ber kosten bis zu 10 Mil-liar-den Eu
+ro , year = 2015, url = http://www.faz.net/aktuell/wirtschaft/wirtschaftspoliti
+k/asylbewerber-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm m
+.\tenrm e
+.\tenrm i
+.\tenrm n
+.\tenrm e
+.etc.
+
+
+Overfull \hbox (10.1071pt too wide) in paragraph at lines 12--17
+[]\tenrm @miscnet, ti-tle=Terahertz ap-pli-ca-tions , url=http://thznetwork.net
+/index.php/thz-images, urldate=2014-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm m
+.\tenrm i
+.\tenrm s
+.etc.
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+
+Overfull \hbox (2.30162pt too wide) in paragraph at lines 20--28
+\tenrm Bluetooth-Standard, Pro-tokoll, Ar-chitek-tur, Date-naus-tausch, Sicher-
+heitsmod-elle der Bluetooth-Spezifikation,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm B
+.\tenrm l
+.\tenrm u
+.\tenrm e
+.\tenrm t
+.etc.
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+
+Overfull \hbox (15.5642pt too wide) in paragraph at lines 58--68
+[]\tenrm @ONLINEitwissen, Au-thor = ITWissen.info, Pub-lisher = DAT-A-COM Buchv
+er-lag GmbH, ti-tle = Bluetooth-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm O
+.\tenrm N
+.\tenrm L
+.etc.
+
+
+Overfull \hbox (44.77283pt too wide) in paragraph at lines 58--68
+\tenrm Standard, year = 2014, HOW-PUB-LISHED = "Web-site", url = http://www.itw
+issen.info/definition/lexikon/Bluetooth-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm S
+.\tenrm t
+.\tenrm a
+.\tenrm n
+.\tenrm d
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.70 @book{grundkurs_
+                     mobile_kommunikationssysteme,
+? 
+! Emergency stop.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.70 @book{grundkurs_
+                     mobile_kommunikationssysteme,
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!
